@@ -1,20 +1,25 @@
-@media screen and (max-width:950px) {
-  .nav{
+@media screen and (max-width: 950px) {
+  .nav {
     justify-content: center;
   }
-  .nav-container{
+  .nav-container {
     flex-direction: column;
     justify-content: center;
   }
-  .logo-container{
+  .logo-container {
+    margin-right: 120px;
     justify-content: center;
   }
-  .nav-items-container{
+  .nav-items-container {
     flex-direction: column;
     justify-content: center;
   }
-  .nav-items-container a{
+  .nav-items-container a {
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+  }
+  .btn {
+    margin-right: 110px;
   }
 }

@@ -4,8 +4,8 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-nav{
-  background-color: #FFF;
+nav {
+  background-color: #fff;
   margin: 0 240px;
   /* border: 1px solid black; */
 }
@@ -55,7 +55,7 @@ nav{
   display: flex;
   /* justify-content: space-around; */
 
-  color: #3C354F ;
+  color: #3c354f;
   text-align: center;
   font-family: Work Sans;
   font-size: 18px;
@@ -65,10 +65,10 @@ nav{
 }
 .nav-items-container a {
   padding-right: 32px;
-  color: #3C354F ;
+  color: #3c354f;
 }
-.connect-us button{
-  color: #3C354F ;
+.connect-us button {
+  color: #3c354f;
   padding: 10px;
   display: flex;
   border: none;
@@ -79,7 +79,7 @@ nav{
   font-size: 18px;
   font-weight: 500;
 }
-.connect-us img{
+.connect-us img {
   width: 33.916px;
   height: 24px;
   flex-shrink: 0;
