@@ -290,3 +290,75 @@ nav {
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
+
+.online-games {
+  justify-content: center;
+  /* display: grid; */
+  /* border: 1px solid black; */
+  /* max-width: 1400px;
+  margin: 50px auto 0;
+  min-height: 400px; */
+}
+.games-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 240px;
+  /* border: 1px solid red; */
+}
+.single-game {
+  width: 90%;
+  gap: 30px;
+  /* border: 5px solid green; */
+  /* min-height: 200px; */
+}
+.single-game img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.online-games-text h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.color-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.online-games-text p {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.single-game p {
+  width: auto;
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 150% */
+}
+.watch{
+  visibility: hidden;
+}
+.single-game :hover{
+  background: url(images/icons/youtube-logo.png) no-repeat center;
+  display: block;
+  opacity: 0.8;
+  color: red;
+}
