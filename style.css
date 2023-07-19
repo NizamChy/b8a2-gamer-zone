@@ -183,3 +183,110 @@ nav {
   border-radius: 48px;
   background: #4ec5f7;
 }
+/* banner design ends here  */
+
+.gamer-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+
+  /* width: auto; */
+  /* min-height: 500px;
+  padding: 20px 0; */
+
+  /* margin-top: 100px;
+  margin-bottom: 60px;
+  height: 500px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  ); */
+}
+.gamer-section-container {
+  display: flex;
+
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  /* border: 1px solid yellow; */
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.img-container {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.img-container img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.gamer-text {
+  width: 50%;
+  text-align: right;
+  justify-content: center;
+}
+.gamer-text h1 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text {
+  margin-left: 20px;
+  width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.purpose {
+  width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+}
+.unleash {
+  text-align: center;
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+}
+.know-more {
+  margin-right: 240px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
