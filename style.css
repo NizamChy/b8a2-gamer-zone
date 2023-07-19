@@ -22,6 +22,7 @@ nav {
   display: flex;
   /* margin-left: 200px; */
   width: 50%;
+  cursor: pointer;
 }
 .logo-container img {
   /* border: 1px solid red; */
@@ -69,6 +70,7 @@ nav {
   color: #3c354f;
 }
 .connect-us button {
+  cursor: pointer;
   color: #3c354f;
   padding: 10px;
   display: flex;
@@ -151,6 +153,7 @@ nav {
   line-height: normal;
 }
 .banner-text .sign-in {
+  cursor: pointer;
   margin-left: 115px;
   color: #fff;
   font-family: Work Sans;
@@ -168,6 +171,7 @@ nav {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
 .banner-text .go-rogue {
+  cursor: pointer;
   color: #fff;
   font-family: Work Sans;
   font-size: 18px;
@@ -274,6 +278,7 @@ nav {
   line-height: 15px;
 }
 .know-more {
+  cursor: pointer;
   margin-right: 240px;
   color: #fff;
   font-family: Work Sans;
@@ -300,6 +305,7 @@ nav {
   min-height: 400px; */
 }
 .games-cards {
+  cursor: pointer;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 240px;
@@ -445,6 +451,7 @@ nav {
   line-height: 20px; /* 166.667% */
 }
 .see-all {
+  cursor: pointer;
   display: inline-flex;
   padding: 13px 15px;
   align-items: flex-start;
@@ -461,4 +468,89 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.list-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.icons button {
+  border: white;
+  border-radius: 50px;
+  margin-top: 20px;
+  background: #fff;
+  width: 248px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.icons button:hover {
+  cursor: pointer;
+  border: 2px solid #ff42a5;
+  border-radius: 50px;
+  background: #fff;
+}
+
+.follow {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #0b0223;
+  /* min-height: 400px; */
+}
+.gamer {
+  display: flex;
+  justify-content: center;
+}
+.gamer-logo {
+  margin-top: 26px;
+  margin-right: 10px;
+  width: 80px;
+  height: 40px;
+}
+
+.gamer h1 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.find-us ul {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  margin: 0px 240px;
+  justify-content: space-around;
+}
+.find-us li {
+  color: wheat;
+}
+
+.social {
+  margin-top: 50px;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+.social img {
+  width: 35px;
+}
+
+footer p {
+  color: wheat;
+  margin-top: 30px;
+  margin-left: 500px;
 }
