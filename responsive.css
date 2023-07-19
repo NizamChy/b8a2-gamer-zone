@@ -144,5 +144,17 @@
     left: 40px;
     /* border: 1px solid #000000; */
   }
+  .career-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .career-text{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .career-items{
+    width: 100%;
+    margin: 0 auto;
+  }
   
 }
