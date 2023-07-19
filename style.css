@@ -353,12 +353,62 @@ nav {
   font-weight: 500;
   line-height: 20px; /* 150% */
 }
-.watch{
+.watch {
   visibility: hidden;
 }
-.single-game :hover{
+.single-game :hover {
   background: url(images/icons/youtube-logo.png) no-repeat center;
   display: block;
   opacity: 0.8;
   color: red;
+}
+.play-section {
+  margin: 0px 240px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.play-section-text {
+  width: 50%;
+  /* border: 1px solid red; */
+}
+.play-section-text h1 {
+  margin-left: 70px;
+  width: 300px;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+.play-section-text p {
+  width: 80%;
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.play-section-images {
+  width: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  width: 80%;
+  position: relative;
+  top: 0;
+  left: 110px;
+  /* border: 1px solid #000000; */
+}
+.image2 {
+  width: 40%;
+  position: absolute;
+  top: 250px;
+  left: 30px;
+  /* border: 1px solid #000000; */
 }
